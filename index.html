@@ -332,21 +332,51 @@
                     <div class="portfolio-item-inner shadow-dark">
                         <div class="slider portfolio-img" >
                             <div class="slide">
-                                <input type="radio" name="radio-btn" id = "pharm1">
-                                <input type="radio" name="radio-btn" id = "pharm2">
-                                <input type="radio" name="radio-btn" id = "pharm3">
-                                <input type="radio" name="radio-btn" id = "pharm4">
+                                <input type="radio" name="radio-bton" id = "pharm1">
+                                <input type="radio" name="radio-bton" id = "pharm2">
+                                <input type="radio" name="radio-bton" id = "pharm3">
+                                <input type="radio" name="radio-bton" id = "pharm4">
                                 <div class="st first">
-                                    <img src="images/port.png" alt="">
+                                    <img src="images/pharm (1).png" alt="">
                                 </div>
                                 <div class="st">
-                                    <img src="images/port1.png" alt="">
+                                    <img src="images/pharm (2).png" alt="">
                                 </div>
                                 <div class="st">
-                                    <img src="images/port2.png" alt="">
+                                    <img src="images/pharm (3).png" alt="">
                                 </div>
                                 <div class="st">
-                                    <img src="images/port3.png" alt="">
+                                    <img src="images/pharm (4).png" alt="">
+                                </div>
+                        </div>
+                        <div class="nav-m">
+                            <label for="pharm1" class="m-btn"></label>
+                            <label for="pharm2" class="m-btn"></label>
+                            <label for="pharm3" class="m-btn"></label>
+                            <label for="pharm4" class="m-btn"></label>
+                        </div>
+                    </div>
+                </div>
+                <h2> WEBSITE VULNERABILITY ANALYSIS SYSTEM</h2>
+                <div class="portfolio-item padd-15">
+                    <div class="portfolio-item-inner shadow-dark">
+                        <div class="slider portfolio-img" >
+                            <div class="slide">
+                                <input type="radio" name="radio-baton" id = "vuln1">
+                                <input type="radio" name="radio-baton" id = "vuln2">
+                                <input type="radio" name="radio-baton" id = "vuln3">
+                                <input type="radio" name="radio-baton" id = "vuln4">
+                                <div class="st first">
+                                    <img src="images/vuln (1).png" alt="">
+                                </div>
+                                <div class="st">
+                                    <img src="images/vuln (3).png" alt="">
+                                </div>
+                                <div class="st">
+                                    <img src="images/vuln (4).png" alt="">
+                                </div>
+                                <div class="st">
+                                    <img src="images/vuln (5).png" alt="">
                                 </div>
                         </div>
                         <div class="nav-m">
@@ -374,45 +404,39 @@
                 <h3 class="contact-sub-title padd-15"> I AM AT YOUR SERVICES</h3>
                 <div class="row">
                     <!--=== Contact Info item start ===-->
-                    <div class="contact-info-item">
+                    <a class="contact-info-item" href="tel:+254713028200">
                         <div class="icon"><i class="fa fa-phone"></i></div>
-                        <h4>Call Me On</h4>
-                        <p>+254 713028200</p>
-                    </div>
+                        <h4>Click to call me</h4>
+                    </a>
                     <!--=== Contact Info item end ===-->
                     <!--=== Contact Info item start ===-->
-                    <div class="contact-info-item padd-15">
+                    <a class="contact-info-item padd-15" href="https://goo.gl/maps/pPawhtVJkWUfTR2p6">
                         <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
-                        <h4>Office</h4>
-                        <p>Nyahururu</p>
-                    </div>
+                        <h4>Location</h4>
+                    </a>
                     <!--=== Contact Info item end ===-->
                     <!--=== Contact Info item start ===-->
-                    <div class="contact-info-item padd-15">
+                    <a class="contact-info-item padd-15" href="mailto:harmonymwithalii@gmail.com">
                         <div class="icon"><i class="fa fa-envelope"></i></div>
                         <h4>Email</h4>
-                        <p>harmonymwithilii@gmail.com</p>
-                    </div>
+                    </a>
                     <!--=== Contact Info item end ===-->
                     <!--=== Contact Info item start ===-->
-                    <div class="contact-info-item padd-15">
-                        <div class="icon"><i class="fab fa-facebook-f"></i></div>
-                        <h4>Call Me On</h4>
-                        <p>harmonymwirigi</p>
-                    </div>
+                    <a class="contact-info-item padd-15" href="https://www.linkedin.com/in/harmonymwirigi">
+                        <div class="icon"><i class="fab fa-linkedin"></i></div>
+                        <h4>Linkedin</h4>
+                    </a>
                     <!--=== Contact Info item end ===-->
                     <!--=== Contact Info item start ===-->
-                    <div class="contact-info-item padd-15">
+                    <a class="contact-info-item padd-15" href="https://twitter.com/HMwithalii">
                         <div class="icon"> <i class="fa-brands fa-twitter"></i></div>
                         <h4>Twitter</h4>
-                        <p>harmonymwirigi</p>
-                    </div>
+                    </a>
                     <!--=== Contact Info item end ===-->
                 </div>
-                <h3 class="contact-title padd-15"> SEND ME AN EMAIL</h3>
-                <h4 class="contact-sub-title padd-15"> I AM VERY RESPONSIVE TO MESSAGES</h4>
+
                 <!--=== Contact Form===-->
-                <div class="row">
+                <!-- <div class="row">
                     <div class="contact-form padd-15">
                         <div class="row">
                             <div class="form-item col-6 padd-15">
@@ -448,7 +472,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- === Contact item end ===-->
     </div>
     <!--===style-switcher-toggler Main Content end ==== -->
@@ -483,20 +507,13 @@
     var counter = 1;
     setInterval(function(){
         document.getElementById('radio' + counter).checked = true;
+        document.getElementById('pharm' + counter).checked = true;
+        document.getElementById('vuln' + counter).checked = true;
         counter++;
         if(counter > 4)
         {
             counter = 1
         }
-    }, 3000)
-    var count = 1;
-    setInterva(function(){
-        document.getElementById('pharm' + count).checked = true;
-        count++;
-        if(count > 4)
-        {
-            count = 1
-        }
-    }, 3000)
+    }, 3000);
 </script>
 </html>
